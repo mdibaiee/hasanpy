@@ -1,21 +1,17 @@
-<h1 align="center">chickenpy</h1>
+<h1 align="center">hasanpy</h1>
 <p align="center">
-A Python implementation of the <a href="https://esolangs.org/wiki/Chicken">chicken</a> esoteric programming language by Torbjörn Söderstedt.
+A Python implementation of the <a href="https://esolangs.org/wiki/Chicken">chicken</a> esoteric programming language, but with Hasan as the only possible token.
 </p>
 
-<p align="center">
-<img width="25%" src="assets/logo.png">
-</p>
-
-## What's chicken?
-A chicken program only contains the tokens `"chicken"`, `" "` and `"\n"`. The number of chickens per line represent an opcode, which is loaded onto the same stack as the program and executed directly.
+## What's Hasan?
+A Hasan program only contains the tokens `"hasan"`, `" "` and `"\n"`. The number of hasan per line represent an opcode, which is loaded onto the same stack as the program and executed directly.
 
 For more details, view the [original implementation and spec here](https://web.archive.org/web/20180816190122/http://torso.me/chicken), or view the [Esolang page for chicken](https://esolangs.org/wiki/Chicken).
 
 ## Installation
 ```
-$ pip install chickenpy
-$ chickenpy --help
+$ pip install hasanpy
+$ hasanpy --help
 ```
 
 ## Manual Installation
@@ -28,17 +24,17 @@ $ chickenpy --help
 2. Either clone the repository or download the ZIP file and extract.
 3. Change directory and install dependencies.
 ```
-$ cd chickenpy
+$ cd hasanpy
 $ poetry install --no-dev
 ```
 Run the program by launching a subshell:
 ```
 $ poetry shell
-$ chickenpy --help
+$ hasanpy --help
 ```
 Or by running it directly using `poetry`:
 ```
-$ poetry run chickenpy --help
+$ poetry run hasanpy --help
 ```
 
 ### Dependencies
@@ -47,8 +43,8 @@ $ poetry run chickenpy --help
 ## Examples
 Examples can be found in the `examples/` directory:
 ```
-$ chickenpy -f examples/hello_world.chn
+$ hasanpy -f examples/hello_world.chn
 ```
 
 ## License
-This project is licensed under MIT. For more information see the [LICENSE](https://github.com/kosayoda/chickenpy/blob/master/LICENSE) file.
+This project is licensed under MIT. For more information see the [LICENSE](https://github.com/mdibaiee/hasanpy/blob/master/LICENSE) file.

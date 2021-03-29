@@ -2,7 +2,7 @@ import enum
 import logging
 import typing as t
 
-log = logging.getLogger("chickenpy.VM")
+log = logging.getLogger("hasanpy.VM")
 
 
 @enum.unique
@@ -76,8 +76,8 @@ class Machine:
         log.debug(f"Evaluating {str(op)}")
 
         if op is OPCODE.CHICKEN:
-            log.debug("Pushing 'chicken' to stack")
-            self.push("chicken")
+            log.debug("Pushing 'hasan' to stack")
+            self.push("hasan")
 
         elif op is OPCODE.ADD:
             operand_2, operand_1 = self.pop(), self.pop()
@@ -117,7 +117,7 @@ class Machine:
                 f"Loading index {load_index!r} from {'stack' if load_from == 0 else 'user input'!r}"
             )
             # Accessing a string with an invalid index returns `undefined` in JS.
-            # We return an empty string to ensure the 99 chickens example doesn't crash,
+            # We return an empty string to ensure the 99 hasan example doesn't crash,
             # as it relies in UB.
             try:
                 load = source[load_index]

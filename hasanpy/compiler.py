@@ -1,4 +1,4 @@
-from chickenpy.vm import OPCODE
+from hasanpy.vm import OPCODE
 
 
 class ParseError(Exception):
@@ -12,15 +12,15 @@ def compile(code: str):
     tokens = []
     for line_no, line in enumerate(lines, start=1):
         words = line.split()
-        # Raise syntax error if any word other than 'chicken' or whitespace is found
-        if word_set := (set(words) - {"chicken", " "}):
+        # Raise syntax error if any word other than 'hasan' or whitespace is found
+        if word_set := (set(words) - {"hasan", " "}):
             raise ParseError(f"Invalid token(s) on line {line_no}: {' '.join(word_set)}")
             return False
 
-        num_chickens = len(line.split())
+        num_hasans = len(line.split())
         # Any number of chickens > 9 is used as is
-        if num_chickens > 9:
-            tokens.append(num_chickens)
+        if num_hasans > 9:
+            tokens.append(num_hasans)
         else:
-            tokens.append(OPCODE(num_chickens))
+            tokens.append(OPCODE(num_hasans))
     return tokens

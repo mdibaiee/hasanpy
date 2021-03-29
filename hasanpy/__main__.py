@@ -6,13 +6,13 @@ import typing as t
 
 import click
 
-from chickenpy.compiler import compile, ParseError
-from chickenpy.vm import Machine
+from hasanpy.compiler import compile, ParseError
+from hasanpy.vm import Machine
 
 EXIT_FAILURE = 1
 EXIT_SUCCESS = 0
 
-log = logging.getLogger("chickenpy")
+log = logging.getLogger("hasanpy")
 
 formatter = logging.Formatter("%(name)s - %(message)s")
 handler = logging.StreamHandler()
