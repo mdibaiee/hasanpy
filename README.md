@@ -8,6 +8,70 @@ A Hasan program only contains the tokens `"hasan"`, `" "` and `"\n"`. The number
 
 For more details, view the [original implementation and spec here](https://web.archive.org/web/20180816190122/http://torso.me/chicken), or view the [Esolang page for chicken](https://esolangs.org/wiki/Chicken).
 
+Hello World in Hasan:
+```
+hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan
+hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan
+hasan hasan hasan hasan
+hasan hasan hasan hasan hasan hasan hasan hasan hasan
+hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan
+hasan hasan hasan hasan hasan hasan hasan
+hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan
+hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan
+hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan
+hasan hasan hasan hasan
+hasan hasan hasan
+hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan
+hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan
+hasan hasan hasan
+hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan
+hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan
+hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan
+hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan
+hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan
+hasan hasan hasan hasan hasan hasan
+
+hasan hasan hasan
+hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan
+hasan hasan hasan hasan
+hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan
+hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan
+hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan
+hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan
+hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan
+hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan
+hasan hasan hasan hasan hasan hasan
+
+hasan hasan hasan hasan
+hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan
+hasan hasan
+hasan hasan
+hasan hasan hasan hasan hasan hasan hasan hasan hasan
+hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan
+hasan hasan hasan hasan hasan hasan
+
+hasan hasan
+hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan
+hasan hasan hasan hasan hasan hasan hasan
+hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan
+hasan hasan hasan hasan hasan hasan
+
+hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan
+hasan hasan hasan
+hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan
+hasan hasan hasan hasan hasan hasan hasan
+hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan
+hasan hasan hasan hasan hasan hasan
+
+hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan
+hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan
+hasan hasan hasan
+hasan hasan hasan hasan hasan hasan hasan hasan
+hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan hasan
+hasan hasan hasan hasan hasan hasan
+```
+
+
 ## Installation
 ```
 $ pip install hasanpy
