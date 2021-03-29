@@ -107,7 +107,7 @@ $ poetry run hasanpy --help
 ## Examples
 Examples can be found in the `examples/` directory:
 ```
-$ hasanpy -f examples/hello_world.chn
+$ hasanpy -f examples/hello_world.hsn
 ```
 
 ## License
